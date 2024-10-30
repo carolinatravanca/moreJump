@@ -1,0 +1,118 @@
+{
+  "band": {
+    "name": "More More Jump",
+    "members": [
+      "Haruka Kiritani",
+      "Airi Momoi",
+      "Minori Hanasato",
+      "Shizuku Hinomori"
+    ]
+  },
+  "albums": [
+    {
+      "album_name": "More! Jump! More! / Newly Edgy Idols",
+      "release_year": 2021,
+      "image_url": "https://images.app.goo.gl/LH4aCkKEcVQKas4e6",
+      "songs": [
+        {
+          "song_title": "MORE! JUMP! MORE!",
+          "writers": [
+            "NayutalieN"
+          ],
+          "image_url": "https://example.com/images/more_jump_more.jpg"
+        },
+        {
+          "song_title": "Newly Edgy Idols",
+          "writers": [
+            "Mitchie M"
+          ],
+          "image_url": "https://example.com/images/dreamin_chuchu.jpg"
+        }
+      ]
+    },
+    {
+      "album_name": "Color of Drops/ Angel's Clover",
+      "release_year": 2021,
+      "image_url": "https://example.com/images/endless_voyage.jpg",
+      "songs": [
+        {
+          "song_title": "Color of Drops",
+          "writers": [
+            "40mP"
+          ],
+          "image_url": "https://example.com/images/afterlife.jpg"
+        },
+        {
+          "song_title": "Angel's Clover",
+          "writers": [
+            "DIVELA"
+          ],
+          "image_url": "https://example.com/images/starry_clouds.jpg"
+        }
+      ]
+    },
+    {
+      "album_name": "Love Material/ Icedrop ",
+      "release_year": 2023,
+      "image_url": "https://example.com/images/rising_moments.jpg",
+      "songs": [
+        {
+          "song_title": "Love Material",
+          "writers": [
+            "Junky"
+          ],
+          "image_url": "https://example.com/images/reaching_for_tomorrow.jpg"
+        },
+        {
+          "song_title": "Ice Drop",
+          "writers": [
+            "aqu3ra"
+          ],
+          "image_url": "https://example.com/images/wish_upon_shooting_star.jpg"
+        }
+      ]
+    },
+    {
+      "album_name": "Worlwide Wander / Metamo Re:born ",
+      "release_year": 2023,
+      "image_url": "https://example.com/images/rising_moments.jpg",
+      "songs": [
+        {
+          "song_title": "Worlwide Wander",
+          "writers": [
+            "TOKOTOKO(NishizawasanP)"
+          ],
+          "image_url": "https://example.com/images/reaching_for_tomorrow.jpg"
+        },
+        {
+          "song_title": "Metamo Re:born",
+          "writers": [
+            "emon(Tes.)"
+          ],
+          "image_url": "https://example.com/images/wish_upon_shooting_star.jpg"
+        }
+      ]
+    },
+    {
+      "album_name": "If / Parasol Cider ",
+      "release_year": 2023,
+      "image_url": "https://example.com/images/rising_moments.jpg",
+      "songs": [
+        {
+          "song_title": "If ",
+          "writers": [
+            "Yurry Canon"
+          ],
+          "image_url": "https://example.com/images/reaching_for_tomorrow.jpg"
+        },
+        {
+          "song_title": "Parasol Cider ",
+          "writers": [
+            "Nanahoshi Orchestra"
+          ],
+          "image_url": "https://example.com/images/wish_upon_shooting_star.jpg"
+        }
+      ]
+    }
+  ]
+}
