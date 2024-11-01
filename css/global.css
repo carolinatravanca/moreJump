@@ -1,11 +1,11 @@
 @font-face{
     font-family:"whale";
-    src: url("/fonts/whale.ttf");
+    src: url("./fonts/whale.ttf");
   }
 
   @font-face{
     font-family:"arial";
-    src: url("/fonts/arial.ttf");
+    src: url("./fonts/arial.ttf");
   }
 html{
 
