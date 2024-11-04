@@ -1,11 +1,11 @@
 @font-face{
     font-family:"whale";
-    src: url("./fonts/whale.ttf");
+    src: url("/fonts/whale.ttf");
   }
 
   @font-face{
     font-family:"arial";
-    src: url("./fonts/arial.ttf");
+    src: url("/fonts/arial.ttf");
   }
 html{
 
@@ -17,12 +17,14 @@ header {
     padding: 10px 0;  
 border-radius: 20px;
 margin: 10px;
+
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
 }
 
 
@@ -39,10 +41,11 @@ li {
     font-size: 30px;
 }
 
-a {
+ a {
     text-decoration: none;
     color: bisque;
 }
+
 
 section{
     border-radius: 20px;
@@ -97,15 +100,27 @@ nav > a > img {
     100% { transform: translateY(0px); } 
 }
 
+footer{
+   
+        background-color: palevioletred;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+}
+
+footer > ul{
+    display: flex;
+align-items: center;
+
+}
+
 @media only screen and (max-width: 600px) {
    .hamburguer{
     display: block;
 margin-right: 10%;
 }
-
-
-
-
 
     ul{
         position: fixed;
