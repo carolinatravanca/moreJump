@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>News</title>
+  <link href="/css/news.css" rel="stylesheet" type="text/css" />
+  <link href="/css/global.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<header>
+<nav>
+    <a href="/index.html" id ="logo_img">
+        <img src="/logo.webp" title="logo" >
+      </a>
+
+    <ul>
+
+        <li><a href="html/news.html">news</a></li>
+        <li><a href="html/about.html">about</a></li>
+        <li><a href="html/discography.html">discography</a></li>
+      
+    </ul>
+
+    <div class="hamburguer">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+
+    </div>
+</nav>
+
+  </header>
+
+  <main>
+   <section>
+    <h1> News </h1>
+    <div class="news">
+        <h3 class="identifier" id="event">event</h3>
+        <h6> 20-10-2024</h6>
+        <p> New tour dates added!</p>
+    </div>
+    <div class="news">
+      <h3 class="identifier" id="live">live</h3>
+      <h6> 13-10-2024</h6>
+      <p> More more jump album reveal live!</p>
+  </div>
+
+  <div class="news">
+    <h3 class="identifier" id="event">event</h3>
+    <h6> 01-10-2024</h6>
+    <p> Upcoming tour information!</p>
+</div>
+<div class="news">
+  <h3 class="identifier" id="live">live</h3>
+  <h6> 25-09-2024</h6>
+  <p> More More Jump Q&A live</p>
+</div>
+<div class="news">
+    <h3 class="identifier" id="live">live</h3>
+    <h6> 23-09-2024</h6>
+    <p> More More Jump charity event live</p>
+  </div>
+
+  <div class="news">
+    <h3 class="identifier" id="shop">shop</h3>
+    <h6> 12-09-2024</h6>
+    <p> New merch added to the shop!</p>
+  </div>
+
+  <div class="news">
+    <h3 class="identifier" id="contest">contest</h3>
+    <h6> 02-09-2024</h6>
+    <p> Win prizes for your next MMJ show!</p>
+  </div>
+    
+</section>
+
+   
+  </main>
+
+  <footer>
+
+    <ul>
+
+        <li><a class="footer_a" href="/html/news">news</a></li>
+        <li><a class="footer_a"  href="/html/about">about</a></li>
+        <li><a class="footer_a"  href="/html/discography.html">discography</a></li>
+      
+    </ul>
+
+  </footer>
+ 
+  <script>
+
+    const hamburguer = document.querySelector(".hamburguer");
+    const navMenu = document.querySelector("ul");
+
+    hamburguer.addEventListener("click", () => {
+hamburguer.classList.toggle("active");
+navMenu.classList.toggle("active");
+
+    })
+
+    document.querySelectorAll("li").forEach(n => 
+    n.addEventListener("click", () => {
+hamburguer.classList.remove("active");
+navMenu.classList.remove("active");
+
+    }))
+
+
+  </script>
+</body>
+
+</html>
