@@ -1,25 +1,4 @@
-let album1 = document.getElementById('album1');
-let album2 = document.getElementById('album2');
-
-let album3 = document.getElementById('album3');
-let album4 = document.getElementById('album4');
-
-const hamburguer = document.querySelector(".hamburguer");
-const navMenu = document.querySelector("ul");
-
-hamburguer.addEventListener("click", () => {
-hamburguer.classList.toggle("active");
-navMenu.classList.toggle("active");
-
-})
-
-document.querySelectorAll("li").forEach(n => 
-n.addEventListener("click", () => {
-hamburguer.classList.remove("active");
-navMenu.classList.remove("active");
-
-}))
-
+//adicionar await
 
 fetch("/DISCOGRAPHY.json")
     .then(function (response) {
@@ -55,3 +34,24 @@ album4.innerHTML = `
     .catch(function (error) {
         console.error("Error fetching or processing JSON:", error);
     });
+
+
+    let album1 = document.getElementById('album1');
+let album2 = document.getElementById('album2');
+
+let album3 = document.getElementById('album3');
+let album4 = document.getElementById('album4');
+
+const hamburguer = document.querySelector(".hamburguer");
+const navMenu = document.querySelector("ul");
+
+hamburguer.addEventListener("click", () => {
+    hamburguer.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll("li").forEach(n => 
+    n.addEventListener("click", () => {
+    hamburguer.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
