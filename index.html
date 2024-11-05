@@ -1,126 +1,133 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>More More Jump</title>
   <link href="css/index.css" rel="stylesheet" type="text/css" />
   <link href="css/global.css" rel="stylesheet" type="text/css" />
- 
 </head>
-
 <body>
 
 <header>
-<nav>
-    <a href="index.html" id ="logo_img">
-        <img src="logo.webp" title="logo" >
-      </a>
-
+  <nav>
+    <a href="index.html" id="logo_img">
+      <img src="logo.webp" title="logo">
+    </a>
     <ul>
-
-        <li><a href="news.html">news</a></li>
-        <li><a href="about.html">about</a></li>
-        <li><a href="discography.html">discography</a></li>
-      
+      <li><a href="news.html">news</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="discography.html">discography</a></li>
     </ul>
-
     <div class="hamburguer">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
     </div>
-</nav>
+  </nav>
+</header>
 
-  </header>
-
-  <main>
-
-   <section>
+<main>
+  <section>
     <img src="group.jpg" title="group">
-   </section>
+  </section>
 
-   <section>
+  <section>
     <div class="iframe-wrapper">
-        <iframe
-            src="https://www.youtube.com/embed/SKbutknpQ_I?si=OOTr6wviiQBhS1ge">
-        </iframe>
+      <iframe src="https://www.youtube.com/embed/SKbutknpQ_I?si=OOTr6wviiQBhS1ge"></iframe>
     </div>
-    
     <div class="iframe-wrapper">
-        <iframe
-        src="https://www.youtube.com/embed/BSi88nRijoA?si=1J19uGDU7uEx-ndR">
-        </iframe>
+      <iframe src="https://www.youtube.com/embed/BSi88nRijoA?si=1J19uGDU7uEx-ndR"></iframe>
     </div>
-
     <div class="iframe-wrapper">
-        <iframe
-        src="https://www.youtube.com/embed/KJI_3HaLtmc?si=fKJY14jvZuqWRDgC" >
-        </iframe>
+      <iframe src="https://www.youtube.com/embed/KJI_3HaLtmc?si=fKJY14jvZuqWRDgC"></iframe>
     </div>
-</section>
+  </section>
 
-
-   <section>
-    <h1> News </h1>
-    <div class="news">
+  <section>
+    <h1>News</h1>
+    <div class="news-section" id="news-section">
+      <div class="news">
         <h3 class="identifier" id="event">event</h3>
-        <h6> 20-10-2024</h6>
-        <p> New tour dates added!</p>
+        <h6>20-10-2024</h6>
+        <p>New tour dates added!</p>
+      </div>
+      <div class="news">
+        <h3 class="identifier" id="live">live</h3>
+        <h6>28-9-2024</h6>
+        <p>More More Jump album reveal live!</p>
+      </div>
     </div>
-    <div class="news">
-      <h3 class="identifier" id="live">live</h3>
-      <h6> 28-9-2024</h6>
-      <p> More more jump album reveal live!</p>
-  </div>
+    <button id="load-more-news">More more news</button>
+  </section>
 
-    <button>More more news</button>
-</section>
+  <section>
+    <img class="idols" src="idols/minori.webp" title="idol1">
+    <img class="idols" src="idols/haruka.webp" title="idol2">
+    <img class="idols" src="idols/airi.webp" title="idol3">
+    <img class="idols" src="idols/shizuku.webp" title="idol4">
+  </section>
+</main>
 
-    <section>
-<img class="idols" src="idols/minori.webp" title="idol1">
-<img class="idols" src="idols/haruka.webp" title="idol2">
-<img class="idols" src="idols/airi.webp" title="idol3">
-<img class="idols" src="idols/shizuku.webp" title="idol4">
-    </section>
+<footer>
+  <ul>
+    <li><a class="footer_a" href="news.html">news</a></li>
+    <li><a class="footer_a" href="about.html">about</a></li>
+    <li><a class="footer_a" href="discography.html">discography</a></li>
+  </ul>
+</footer>
 
-  </main>
+<script>
+  const hamburguer = document.querySelector(".hamburguer");
+  const navMenu = document.querySelector("ul");
 
-  <footer>
+  hamburguer.addEventListener("click", () => {
+    hamburguer.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
 
-    <ul>
-
-        <li><a class="footer_a" href="news.html">news</a></li>
-        <li><a class="footer_a"  href="about.html">about</a></li>
-        <li><a class="footer_a"  href="discography.html">discography</a></li>
-      
-    </ul>
-
-  </footer>
- 
-  <script>
-
-    const hamburguer = document.querySelector(".hamburguer");
-    const navMenu = document.querySelector("ul");
-
-    hamburguer.addEventListener("click", () => {
-hamburguer.classList.toggle("active");
-navMenu.classList.toggle("active");
-
-    })
-
-    document.querySelectorAll("li").forEach(n => 
+  document.querySelectorAll("li").forEach(n =>
     n.addEventListener("click", () => {
-hamburguer.classList.remove("active");
-navMenu.classList.remove("active");
+      hamburguer.classList.remove("active");
+      navMenu.classList.remove("active");
+    })
+  );
 
-    }))
+  const newsSection = document.getElementById("news-section");
+  const loadMoreButton = document.getElementById("load-more-news");
 
 
-  </script>
+  const additionalNews = [
+    { title: "event", date: "05-11-2024", content: "New single release soon!" },
+    { title: "interview", date: "15-11-2024", content: "Exclusive interview on upcoming projects!" },
+    { title: "collaboration", date: "01-12-2024", content: "Collaboration with renowned artist!" }
+  ];
+
+  loadMoreButton.addEventListener("click", () => {
+    additionalNews.forEach(newsItem => {
+      const newsDiv = document.createElement("div");
+      newsDiv.className = "news";
+
+      const title = document.createElement("h3");
+      title.className = "identifier";
+      title.textContent = newsItem.title;
+
+      const date = document.createElement("h6");
+      date.textContent = newsItem.date;
+
+      const content = document.createElement("p");
+      content.textContent = newsItem.content;
+
+    
+      newsDiv.appendChild(title);
+      newsDiv.appendChild(date);
+      newsDiv.appendChild(content);
+
+    
+      newsSection.appendChild(newsDiv);
+    });
+  });
+</script>
+
 </body>
-
 </html>
