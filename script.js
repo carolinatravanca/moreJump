@@ -5,7 +5,7 @@ let album2 = document.getElementById('album2');
 let album3 = document.getElementById('album3');
 let album4 = document.getElementById('album4');
 
-fetch("moreJump/DISCOGRAPHY.json")
+fetch('https://carolinatravanca.github.io/moreJump/DISCOGRAPHY.json')
     .then(function (response) {
         return response.json();
     })
