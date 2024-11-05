@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Whale';
-    src: url('whale.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html{
     background-color: mistyrose;   
 }
