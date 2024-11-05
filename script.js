@@ -1,15 +1,11 @@
 //adicionar await
-
-function initialize() {
-    // Place all your code here
-
 let album1 = document.getElementById('album1');
 let album2 = document.getElementById('album2');
 
 let album3 = document.getElementById('album3');
 let album4 = document.getElementById('album4');
 
-fetch("/DISCOGRAPHY.json?cache=" + new Date().getTime())
+fetch("/DISCOGRAPHY.json")
     .then(function (response) {
         return response.json();
     })
@@ -60,4 +56,3 @@ document.querySelectorAll("li").forEach(n =>
     hamburguer.classList.remove("active");
     navMenu.classList.remove("active");
 }))
-}
