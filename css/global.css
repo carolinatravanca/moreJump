@@ -1,5 +1,6 @@
 html{
-    background-color: mistyrose;   
+    background-color: mistyrose; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
@@ -26,7 +27,6 @@ ul {
 }
 
 li {
-    font-family: 'Whale';
     font-size: 30px;
 }
 
@@ -55,7 +55,7 @@ h3{
 }
 
 h1{
-    font-family: 'Whale';
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: bisque;
 }
 

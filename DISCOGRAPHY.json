@@ -12,7 +12,7 @@
     {
       "album_name": "More! Jump! More! / Newly Edgy Idols",
       "release_year": 2021,
-      "image_url": "https://images.app.goo.gl/LH4aCkKEcVQKas4e6",
+      "image_url": "https://raw.githubusercontent.com/carolinatravanca/moreJump/refs/heads/master/albuns/MJM%3ANEI.webp",
       "songs": [
         {
           "song_title": "MORE! JUMP! MORE!",
@@ -33,7 +33,7 @@
     {
       "album_name": "Color of Drops/ Angel's Clover",
       "release_year": 2021,
-      "image_url": "https://example.com/images/endless_voyage.jpg",
+      "image_url": "https://raw.githubusercontent.com/carolinatravanca/moreJump/refs/heads/master/albuns/CD%3AAC.webp",
       "songs": [
         {
           "song_title": "Color of Drops",
@@ -54,7 +54,7 @@
     {
       "album_name": "Love Material/ Icedrop ",
       "release_year": 2023,
-      "image_url": "https://example.com/images/rising_moments.jpg",
+      "image_url": "https://raw.githubusercontent.com/carolinatravanca/moreJump/refs/heads/master/albuns/LM%3AI.webp",
       "songs": [
         {
           "song_title": "Love Material",
@@ -75,7 +75,7 @@
     {
       "album_name": "Worlwide Wander / Metamo Re:born ",
       "release_year": 2023,
-      "image_url": "https://example.com/images/rising_moments.jpg",
+      "image_url": "https://raw.githubusercontent.com/carolinatravanca/moreJump/refs/heads/master/albuns/WW%3AMR.webp",
       "songs": [
         {
           "song_title": "Worlwide Wander",
@@ -96,7 +96,7 @@
     {
       "album_name": "If / Parasol Cider ",
       "release_year": 2023,
-      "image_url": "https://example.com/images/rising_moments.jpg",
+      "image_url": "https://raw.githubusercontent.com/carolinatravanca/moreJump/refs/heads/master/albuns/IF%3APC.webp",
       "songs": [
         {
           "song_title": "If ",

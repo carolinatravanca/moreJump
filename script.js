@@ -1,6 +1,15 @@
 //adicionar await
 
-fetch("/DISCOGRAPHY.json")
+function initialize() {
+    // Place all your code here
+
+let album1 = document.getElementById('album1');
+let album2 = document.getElementById('album2');
+
+let album3 = document.getElementById('album3');
+let album4 = document.getElementById('album4');
+
+fetch("/DISCOGRAPHY.json?cache=" + new Date().getTime())
     .then(function (response) {
         return response.json();
     })
@@ -36,11 +45,7 @@ album4.innerHTML = `
     });
 
 
-    let album1 = document.getElementById('album1');
-let album2 = document.getElementById('album2');
-
-let album3 = document.getElementById('album3');
-let album4 = document.getElementById('album4');
+   
 
 const hamburguer = document.querySelector(".hamburguer");
 const navMenu = document.querySelector("ul");
@@ -55,3 +60,4 @@ document.querySelectorAll("li").forEach(n =>
     hamburguer.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+}
